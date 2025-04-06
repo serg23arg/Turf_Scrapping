@@ -14,3 +14,5 @@ In addition to CSV and TXT storage, the program includes functionality to conver
 
 * **Process Control and Error Tolerance:**
 The system saves backups, logs errors, and allows the user to decide whether to retry downloading failed races. It also implements flags to ensure continuity of the process in the event of connection issues or other transient errors, and automatically triggers the recovery process on the next execution—guaranteeing data consistency.
+
+**IMPORTANT**: In the version containing example data, please note that the database will not match the existing txt files, this is due to GitHub upload limitations, as there are more than 4000 txt files that should be uploaded to the repository in order to match the database.
